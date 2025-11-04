@@ -21,11 +21,11 @@ import POE_Item_Cover from "@/assets/POE_ItemDesign/POE_ItemDesign_Cover.png";
 import POE_Item_01 from "@/assets/POE_ItemDesign/POE_Item_Lightbox.png";
 
 // Wordpress Images
-import Wordpress_Cover from "@/assets/WordPress/Wp_Home.png";
-import Wordpress_01 from "@/assets/WordPress/WP_Mamp.png";
-import Wordpress_02 from "@/assets/WordPress/WP_ACF.png";
-import Wordpress_03 from "@/assets/WordPress/WP_FSE.png";
-import Wordpress_04 from "@/assets/WordPress/WP_GoogleMap.png";
+import Wordpress_Cover from "@/assets/Wordpress/Wp_Home.png";
+import Wordpress_01 from "@/assets/Wordpress/WP_Mamp.png";
+import Wordpress_02 from "@/assets/Wordpress/WP_ACF.png";
+import Wordpress_03 from "@/assets/Wordpress/WP_FSE.png";
+import Wordpress_04 from "@/assets/Wordpress/WP_GoogleMap.png";
 
 // Lol Caught Images
 import Lol_Caught_Cover from "@/assets/Lol_Caught/CAUGHT_02.png";
