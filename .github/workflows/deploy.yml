@@ -1,19 +1,14 @@
-name: Deploy Vite App to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  workflow_dispatch:
 
 permissions:
   contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   build:
@@ -33,6 +28,13 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Verify build output
+        run: |
+          echo "Build contents:"
+          ls -la dist/
+          echo "Index.html first lines:"
+          head -n 10 dist/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
