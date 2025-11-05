@@ -36,7 +36,7 @@ const Skills = () => {
   return (
     <section className="py-20 bg-secondary/30">
       <div className="container px-4">
-        <h2 className="text-4xl font-bold text-center mb-4">Compétences et Expertise</h2>
+        <h2 className="text-4xl font-bold text-center mb-4">Compétences</h2>
         <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
           Compétences acquises au cours de mes études et de mes projets personnels/professionnels <br></br>
           Je travail actuelement à en ajouter d'avantage
