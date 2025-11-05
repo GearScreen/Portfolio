@@ -80,12 +80,12 @@ import gameOfLife_04 from "@/assets/GameOfLife/GOL_Ghost_Turtles.gif";
 const projects = [
   {
     id: 1,
-    title: "Jeu Web : CoopFactory",
+    title: "Node.js : CoopFactory",
     description: "CoopFactory est un jeu similaire à cookie clicker mais en multijoueur",
     fullDescription: "Le backend est hébergé gratuitement sur Render.com (ce qui implique un temps de latence au démarrage du serveur après une période d'inactivité). \n\nLe jeu utilise Node.js et Socket.io pour la communication en temps réel entre les clients et le serveur, \nle score est commun aux jouers mais les ressources sont individuelles et permettent d'amélioré un des quatres modules de l'usine.",
     category: "Développement Web",
     images: [coopFactory_Cover, coopFactory_01, coopFactory_02, coopFactory_03],
-    technologies: ["HTML5", "CSS3", "JavaScript", "Node.Js", "Socket.io", "Render.com"],
+    technologies: ["HTML5", "CSS3", "JavaScript", "Node.js", "Socket.io", "Render.com"],
     links: [{name: "CoopFactory", url:"https://gearscreen.github.io/CoopFactory/CoopFactoryFront/"},
       {name: "GitHub", url: "https://github.com/GearScreen/CoopFactory"}, {name: "Render.com", url:"https://render.com/"}],
   },
@@ -101,7 +101,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Gallerie d'Image : POE Item Design",
+    title: "Python Flask : POE Item Design",
     description: "Galerie d'images développé avec Python Flask et hébergée sur PythonAnywhere",
     fullDescription: "Le projet est hébérgé gratuitement sur Pythonanywhere (ce qui implique que je doive manuellement remettre le projet en ligne tous les 3 mois, il ne sera donc probablement pas disponible) \n\n la galerie d'image présente les items que j'ai designé (Fan made) pour le jeu Path of Exile en utilisant le site Path of Exile Item Creator",
     category: "Développement Web",
