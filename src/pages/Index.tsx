@@ -77,6 +77,10 @@ import gameOfLife_02 from "@/assets/GameOfLife/GosperGliderGun.gif";
 import gameOfLife_03 from "@/assets/GameOfLife/GOL_Tutrtles.gif";
 import gameOfLife_04 from "@/assets/GameOfLife/GOL_Ghost_Turtles.gif";
 
+// HomeLab Images
+import homeLab_Cover from "@/assets/HomeLab/OpenMediaVault.png";
+import homeLab_01 from "@/assets/HomeLab/Navidrome.png";
+
 const projects = [
   {
     id: 1,
@@ -209,6 +213,16 @@ const projects = [
     category: "Game Dev",
     images: [gameOfLife_Cover, gameOfLife_01, gameOfLife_02, gameOfLife_03, gameOfLife_04],
     technologies: ["Unity", "C#"],
+    links: [{name: "Jeu de la Vie Wiki", url:"https://fr.wikipedia.org/wiki/Jeu_de_la_vie"}],
+  },
+  {
+    id: 14,
+    title: "Home Lab",
+    description: "Début de mon Home Lab personnel",
+    fullDescription: "J'ai utilisé un PC portable récupérer que j'ai reconditionné avec Linux Ubuntu \n\n j'ai utilisé VirtualBox pour faire tourner OpenMediaVault dans une VM et Navidrome (music server) connecté au dossier de musique partagé de OpenMediaVault",
+    category: "Autres",
+    images: [homeLab_Cover, homeLab_01],
+    technologies: ["Linux", "Ubuntu", "Dockeer", "VirtualBox"],
     links: [{name: "Jeu de la Vie Wiki", url:"https://fr.wikipedia.org/wiki/Jeu_de_la_vie"}],
   },
 ];
