@@ -81,6 +81,9 @@ import gameOfLife_04 from "@/assets/GameOfLife/GOL_Ghost_Turtles.gif";
 import homeLab_Cover from "@/assets/HomeLab/OpenMediaVault.png";
 import homeLab_01 from "@/assets/HomeLab/Navidrome.png";
 
+// Monkey Tribe Rush Images
+import monkeyTribeRush_Cover from "@/assets/MonkeyTribeRush/MonkeyTribeRush_Cover.png";
+
 const projects = [
   {
     id: 1,
@@ -90,8 +93,8 @@ const projects = [
     category: "Développement Web",
     images: [coopFactory_Cover, coopFactory_01, coopFactory_02, coopFactory_03],
     technologies: ["HTML5", "CSS3", "JavaScript", "Node.js", "Socket.io", "Render.com"],
-    links: [{name: "CoopFactory", url:"https://gearscreen.github.io/CoopFactory/CoopFactoryFront/"},
-      {name: "GitHub", url: "https://github.com/GearScreen/CoopFactory"}, {name: "Render.com", url:"https://render.com/"}],
+    links: [{ name: "CoopFactory", url: "https://gearscreen.github.io/CoopFactory/CoopFactoryFront/" },
+    { name: "GitHub", url: "https://github.com/GearScreen/CoopFactory" }, { name: "Render.com", url: "https://render.com/" }],
   },
   {
     id: 2,
@@ -101,7 +104,7 @@ const projects = [
     category: "Développement Web",
     images: [fastAPI_Cover, fastAPI_01],
     technologies: ["Python", "FastAPI", "Uvicorn", "Kaggle", "Curl", "SQLite3", "SQLAlchemy"],
-    links: [{name: "Kaggle", url:"https://www.kaggle.com/"}],
+    links: [{ name: "Kaggle", url: "https://www.kaggle.com/" }],
   },
   {
     id: 3,
@@ -111,8 +114,8 @@ const projects = [
     category: "Développement Web",
     images: [POE_Item_Cover, POE_Item_01],
     technologies: ["Python", "Python Flask", "HTML5", "CSS3"],
-    links: [{name: "POE Item Design", url:"https://barbasoyun.pythonanywhere.com/"},
-      {name: "GitHub", url: "https://github.com/GearScreen/POE_ItemDesign"}, {name: "Path of Exile Item Creator", url:"https://poeitem.crunchyintheory.com/create"}],
+    links: [{ name: "POE Item Design", url: "https://barbasoyun.pythonanywhere.com/" },
+    { name: "GitHub", url: "https://github.com/GearScreen/POE_ItemDesign" }, { name: "Path of Exile Item Creator", url: "https://poeitem.crunchyintheory.com/create" }],
   },
   {
     id: 4,
@@ -122,7 +125,7 @@ const projects = [
     category: "Développement Web",
     images: [Wordpress_Cover, Wordpress_01, Wordpress_02, Wordpress_03, Wordpress_04],
     technologies: ["Wordpress", "FSE", "PhpMyAdmin", "MAMP"],
-    links: [{name: "Wordpress", url:"https://wordpress.com/fr/"},]
+    links: [{ name: "Wordpress", url: "https://wordpress.com/fr/" },]
   },
   {
     id: 5,
@@ -132,7 +135,7 @@ const projects = [
     category: "Développement Web",
     images: [Lol_Caught_Cover, Lol_Caught_01, Lol_Caught_02, Lol_Caught_03, Lol_Caught_04],
     technologies: ["React"],
-    links: [{name: "Riot Developper Portal", url:"https://developer.riotgames.com/"}],
+    links: [{ name: "Riot Developper Portal", url: "https://developer.riotgames.com/" }],
   },
   {
     id: 6,
@@ -142,7 +145,7 @@ const projects = [
     category: "Développement Web",
     images: [reactApp_Cover],
     technologies: ["React"],
-    links: [{name: "React App", url:"https://gearscreen.github.io/ReactApp/"}, {name: "GitHub", url: "https://github.com/GearScreen/ReactApp"}],
+    links: [{ name: "React App", url: "https://gearscreen.github.io/ReactApp/" }, { name: "GitHub", url: "https://github.com/GearScreen/ReactApp" }],
   },
   {
     id: 7,
@@ -152,8 +155,8 @@ const projects = [
     category: "Développement Web",
     images: [riskHunt_Cover, riskHunt_01, riskHunt_02, riskHunt_03, riskHunt_04],
     technologies: ["Php", "PhpMyAdmin", "Unity", "C#"],
-    links: [{name: "Page du Projet", url:"https://gearscreen.github.io/CoopFactory/CoopFactoryFront/"},
-      {name: "GitHub", url: "https://github.com/GearScreen/CoopFactory"}, {name: "Render.com", url:"https://render.com/"}],
+    links: [{ name: "Page du Projet", url: "https://gearscreen.github.io/CoopFactory/CoopFactoryFront/" },
+    { name: "GitHub", url: "https://github.com/GearScreen/CoopFactory" }, { name: "Render.com", url: "https://render.com/" }],
   },
   {
     id: 8,
@@ -163,7 +166,7 @@ const projects = [
     category: "Application Bureau",
     images: [siegeNotes_Cover],
     technologies: ["Java", "Java Swing"],
-    links: [{name: "Github", url:"https://github.com/GearScreen/SiegeNotes"}],
+    links: [{ name: "Github", url: "https://github.com/GearScreen/SiegeNotes" }],
   },
   {
     id: 9,
@@ -173,7 +176,7 @@ const projects = [
     category: "Développement Web",
     images: [oldPortfolio_Cover],
     technologies: ["HTML5", "CSS3", "JavaScript"],
-    links: [{name: "Portfolio", url:"https://gearscreen.github.io/Portfolio_WEB/"}],
+    links: [{ name: "Portfolio", url: "https://gearscreen.github.io/Portfolio_WEB/" }],
   },
   {
     id: 10,
@@ -183,7 +186,7 @@ const projects = [
     category: "Game Dev",
     images: [dashingExploration_Cover, dashingExploration_01, dashingExploration_02, dashingExploration_03, dashingExploration_04],
     technologies: ["Unity", "C#", "Android"],
-    links: [{name: "GitHub", url:"https://github.com/GearScreen/DashingExploration"}],
+    links: [{ name: "GitHub", url: "https://github.com/GearScreen/DashingExploration" }],
   },
   {
     id: 11,
@@ -193,7 +196,7 @@ const projects = [
     category: "Game Dev",
     images: [toyboxWarfare_Cover, toyboxWarfare_01, toyboxWarfare_02, toyboxWarfare_03, toyboxWarfare_04],
     technologies: ["Unity", "C#"],
-    links: [{name: "Itch.io", url:"https://pte-project.itch.io/toybox-warfare"}],
+    links: [{ name: "Itch.io", url: "https://pte-project.itch.io/toybox-warfare" }],
   },
   {
     id: 12,
@@ -203,7 +206,7 @@ const projects = [
     category: "Game Dev",
     images: [projectTron_Cover, projectTron_01, projectTron_02, projectTron_03],
     technologies: ["Unity", "C#"],
-    links: [{name: "GitHub", url:"https://github.com/GearScreen/DashingExploration"}],
+    links: [{ name: "GitHub", url: "https://github.com/GearScreen/DashingExploration" }],
   },
   {
     id: 13,
@@ -213,7 +216,7 @@ const projects = [
     category: "Game Dev",
     images: [gameOfLife_Cover, gameOfLife_01, gameOfLife_02, gameOfLife_03, gameOfLife_04],
     technologies: ["Unity", "C#"],
-    links: [{name: "Jeu de la Vie Wiki", url:"https://fr.wikipedia.org/wiki/Jeu_de_la_vie"}],
+    links: [{ name: "Jeu de la Vie Wiki", url: "https://fr.wikipedia.org/wiki/Jeu_de_la_vie" }],
   },
   {
     id: 14,
@@ -223,7 +226,17 @@ const projects = [
     category: "Autres",
     images: [homeLab_Cover, homeLab_01],
     technologies: ["Linux", "Ubuntu", "Dockeer", "VirtualBox"],
-    links: [{name: "Jeu de la Vie Wiki", url:"https://fr.wikipedia.org/wiki/Jeu_de_la_vie"}],
+    links: [],
+  },
+  {
+    id: 15,
+    title: "Roblox : Monkey Tribe Rush",
+    description: "Survivor Multijoueur sur Roblox",
+    fullDescription: "",
+    category: "Game Dev",
+    images: [monkeyTribeRush_Cover],
+    technologies: ["Roblox Studio"],
+    links: [{ name: "Monkey Tribe Rush", url: "https://www.roblox.com/games/92891776561997/Monkey-Tribe-Rush" }],
   },
 ];
 
