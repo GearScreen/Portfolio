@@ -84,6 +84,12 @@ import homeLab_01 from "@/assets/HomeLab/Navidrome.png";
 // Monkey Tribe Rush Images
 import monkeyTribeRush_Cover from "@/assets/MonkeyTribeRush/MonkeyTribeRush_Cover.png";
 
+// 3D Engine Images
+import threeDEngine_Cover from "@/assets/3DEngine/3DEngine.gif";
+import threeDEngine_Penger from "@/assets/3DEngine/Penger.gif";
+import threeDEngine_Spinosaurus from "@/assets/3DEngine/SPINosaurus.gif";
+import threeDEngine_Transformations from "@/assets/3DEngine/Transformations.gif";
+
 const projects = [
   {
     id: 1,
@@ -237,6 +243,16 @@ const projects = [
     images: [monkeyTribeRush_Cover],
     technologies: ["Roblox Studio"],
     links: [{ name: "Monkey Tribe Rush", url: "https://www.roblox.com/games/92891776561997/Monkey-Tribe-Rush" }],
+  },
+  {
+    id: 16,
+    title: "Web 3D Engine",
+    description: "3D Engine from stratch in Rust + egui",
+    fullDescription: "",
+    category: "Développement Web",
+    images: [threeDEngine_Cover, threeDEngine_Penger, threeDEngine_Spinosaurus, threeDEngine_Transformations],
+    technologies: ["Rust", "WASM"],
+    links: [{ name: "3D Engine", url: "https://barbasoyun.github.io/3DEngine/" }],
   },
 ];
 
