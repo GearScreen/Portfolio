@@ -91,6 +91,16 @@ import threeDEngine_Spinosaurus from "@/assets/3DEngine/SPINosaurus.gif";
 import threeDEngine_Transformations from "@/assets/3DEngine/Transformations.gif";
 
 const projects = [
+    {
+    id: 16,
+    title: "Web 3D Engine",
+    description: "3D Engine from stratch in Rust + egui",
+    fullDescription: "",
+    category: "Développement Web",
+    images: [threeDEngine_Cover, threeDEngine_Penger, threeDEngine_Spinosaurus, threeDEngine_Transformations],
+    technologies: ["Rust", "WASM"],
+    links: [{ name: "3D Engine", url: "https://barbasoyun.github.io/3DEngine/" }],
+  },
   {
     id: 1,
     title: "Node.js : CoopFactory",
@@ -243,17 +253,7 @@ const projects = [
     images: [monkeyTribeRush_Cover],
     technologies: ["Roblox Studio"],
     links: [{ name: "Monkey Tribe Rush", url: "https://www.roblox.com/games/92891776561997/Monkey-Tribe-Rush" }],
-  },
-  {
-    id: 16,
-    title: "Web 3D Engine",
-    description: "3D Engine from stratch in Rust + egui",
-    fullDescription: "",
-    category: "Développement Web",
-    images: [threeDEngine_Cover, threeDEngine_Penger, threeDEngine_Spinosaurus, threeDEngine_Transformations],
-    technologies: ["Rust", "WASM"],
-    links: [{ name: "3D Engine", url: "https://barbasoyun.github.io/3DEngine/" }],
-  },
+  }
 ];
 
 const categories = ["Tous", "Développement Web", "Application Bureau", "Game Dev", "Autres"];
@@ -281,7 +281,7 @@ const Index = () => {
         <div className="container px-4">
           <h2 className="text-4xl font-bold text-center mb-4">Mes Projets</h2>
           <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-            Découvrez mes derniers projets en Web Development et Game Developpement
+            Découvrez mes derniers projets en Web Dev et Game Dev
           </p>
 
           <CategoryFilter
