@@ -90,7 +90,23 @@ import threeDEngine_Penger from "@/assets/3DEngine/Penger.gif";
 import threeDEngine_Spinosaurus from "@/assets/3DEngine/SPINosaurus.gif";
 import threeDEngine_Transformations from "@/assets/3DEngine/Transformations.gif";
 
+// 3D Modeling Images
+import threeDModeling_Cover from "@/assets/3DModeling/ThenterisAnimUnity_02.gif";
+import threeDModeling_Thenteris from "@/assets/3DModeling/Theneris_01.png";
+import threeDModeling_ThenterisWalk from "@/assets/3DModeling/ThenterisAnim.gif";
+import threeDModeling_Sword from "@/assets/3DModeling/UnitySword.png";
+
 const projects = [
+  {
+    id: 16,
+    title: "3D Modeling",
+    description: "Using Blender, imported in Unity",
+    fullDescription: "Modeling, Texture Painting, Skeleton, Weight paint, Controllers and Walk Animation with blender. Dance animation from mixamo",
+    category: "Game Dev",
+    images: [threeDModeling_Cover, threeDModeling_ThenterisWalk, threeDModeling_Thenteris, threeDModeling_Sword],
+    technologies: ["Blender", "Mixamo"],
+    links: [{ name: "3D Sword", url: "https://github.com/BarbasOyun/3DSword" }, { name: "Thenteris", url: "https://github.com/BarbasOyun/Thenteris" }],
+  },
     {
     id: 16,
     title: "Web 3D Engine",
@@ -100,6 +116,26 @@ const projects = [
     images: [threeDEngine_Cover, threeDEngine_Penger, threeDEngine_Spinosaurus, threeDEngine_Transformations],
     technologies: ["Rust", "WASM"],
     links: [{ name: "3D Engine", url: "https://barbasoyun.github.io/3DEngine/" }],
+  },
+  {
+    id: 15,
+    title: "Roblox : Monkey Tribe Rush",
+    description: "Survivor Multijoueur sur Roblox",
+    fullDescription: "",
+    category: "Game Dev",
+    images: [monkeyTribeRush_Cover],
+    technologies: ["Roblox Studio"],
+    links: [{ name: "Monkey Tribe Rush", url: "https://www.roblox.com/games/92891776561997/Monkey-Tribe-Rush" }],
+  },
+  {
+    id: 14,
+    title: "Home Lab",
+    description: "Début de mon Home Lab personnel",
+    fullDescription: "J'ai utilisé un PC portable récupérer que j'ai reconditionné avec Linux Ubuntu \n\nj'ai utilisé VirtualBox pour faire tourner OpenMediaVault dans une VM et Navidrome (music server) connecté au dossier de musique partagé de OpenMediaVault",
+    category: "Autres",
+    images: [homeLab_Cover, homeLab_01],
+    technologies: ["Linux", "Ubuntu", "Docker", "VirtualBox"],
+    links: [],
   },
   {
     id: 1,
@@ -233,26 +269,6 @@ const projects = [
     images: [gameOfLife_Cover, gameOfLife_01, gameOfLife_02, gameOfLife_03, gameOfLife_04],
     technologies: ["Unity", "C#"],
     links: [{ name: "Jeu de la Vie Wiki", url: "https://fr.wikipedia.org/wiki/Jeu_de_la_vie" }],
-  },
-  {
-    id: 14,
-    title: "Home Lab",
-    description: "Début de mon Home Lab personnel",
-    fullDescription: "J'ai utilisé un PC portable récupérer que j'ai reconditionné avec Linux Ubuntu \n\n j'ai utilisé VirtualBox pour faire tourner OpenMediaVault dans une VM et Navidrome (music server) connecté au dossier de musique partagé de OpenMediaVault",
-    category: "Autres",
-    images: [homeLab_Cover, homeLab_01],
-    technologies: ["Linux", "Ubuntu", "Dockeer", "VirtualBox"],
-    links: [],
-  },
-  {
-    id: 15,
-    title: "Roblox : Monkey Tribe Rush",
-    description: "Survivor Multijoueur sur Roblox",
-    fullDescription: "",
-    category: "Game Dev",
-    images: [monkeyTribeRush_Cover],
-    technologies: ["Roblox Studio"],
-    links: [{ name: "Monkey Tribe Rush", url: "https://www.roblox.com/games/92891776561997/Monkey-Tribe-Rush" }],
   }
 ];
 
